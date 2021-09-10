@@ -62,7 +62,7 @@ spec:
           - name: source-repo
             value: https://github.com/alexseymour1997/express-sample-app
           - name: image-repo
-            value: quay.io/<your-account>/express-sample-app
+            value: quay.io/alexander_seymour_ibm/express-sample-app
         workspaces:
           - name: pipeline-shared-data
             volumeClaimTemplate:
